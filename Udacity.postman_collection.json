@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "dd1fe34a-e58c-4f33-b854-adf5ed3a6f19",
+		"_postman_id": "bed2e6d9-81d3-4e7d-8f61-3a459be491c1",
 		"name": "Udacity",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "20772123"
@@ -329,7 +329,7 @@
 					"port": "8082",
 					"path": [
 						"schedule",
-						"employee",
+						"customer",
 						"1"
 					]
 				}
