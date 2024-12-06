@@ -7,6 +7,7 @@ import com.udacity.jdnd.course3.critter.repository.PetRepository;
 import com.udacity.jdnd.course3.critter.repository.ScheduleRepository;
 import com.udacity.jdnd.course3.critter.schedule.Schedule;
 import com.udacity.jdnd.course3.critter.user.Employee;
+import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -14,13 +15,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Service
+@Transactional
 public class ScheduleService {
 
     @Autowired
     private PetRepository petRepository;
-
-    @Autowired
-    private CustomerRepository customerRepository;
 
     @Autowired
     private ScheduleRepository scheduleRepository;
